@@ -1,0 +1,23 @@
+{
+    "name": "manuel90/dummy-settings",
+    "description": "Form to test sengin email",
+    "authors": [
+        {
+            "name": "Manuel",
+            "email": "testmlzra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Manuel90\\DummySettings\\": "src/"
+        }
+    },
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Manuel90\\DummySettings\\DummySettingsServiceProvider"
+            ]
+    	}
+    }
+}
